@@ -76,24 +76,23 @@ body {
 .linkbox {
 	border-radius: 10px 30px 15px;
 	box-shadow: 5px 5px 5px #444;
-	opacity: 0.7;
+	background-color: rgba(255, 255, 255, 0.7);
 	width: 228px;
 	text-decoration: none;
 	border: 1px solid #CCC;
-	background-color: #FFF;
 	float: left;
 	margin-bottom: 25px;
 	padding-top: 10px;
 	padding-left: 20px;
 	padding-bottom: 25px;
 	margin-left: 14px;
-	transition: transform .3s;
 }
 
 .linkbox:hover {
-	transform: none;
 	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #333;
 }
+
 a:link, a:visited {
 	color: #333;
 	text-decoration: none;
