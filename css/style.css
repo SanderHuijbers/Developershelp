@@ -108,8 +108,9 @@ a:hover {
 	font-size: 1.3em;
 }
 #footer {
+	position: fixed;
 	clear: both;
-	width: 840px;
+	width: 100%px;
 	text-align: center;
 	font-size: 0.8em;
 	margin-top: 0px;
