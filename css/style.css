@@ -13,11 +13,11 @@ html, body {
 	height: 100%;
 }
 body {
-	background-color: #FFFFE8;
+	/* background-color: #FFFFE8; */
 	font-family: Verdana, Geneva, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	background-image: url(../images/jute2.png);
+	/* background-image: url(../images/jute2.png); */
 	font-size: 1em;
 }
 #outerWrapper {
