@@ -88,6 +88,10 @@ li {
 	list-style-type: none;
 }
 
+#my-btn:hover {
+	opacity: 0.7;
+  }
+
 .grid-center {
 	text-align: center;
 	padding-top: 20px;
@@ -116,18 +120,6 @@ header navigation h1 {
 	display: none;
 }
 
-header titlebar h1 {
-	background-color: #fff;
-	text-align: center;
-	height: 70px;
-	box-shadow: 0px 5px 5px #444;
-	opacity: 0.7;
-	margin-top: 0px;
-	margin-bottom: 16px;
-	width: 100%;
-	padding-top: 20px;
-	font-size: 2.5em;
-}
 
 .section-title {
 	display: flex;
@@ -208,110 +200,119 @@ header titlebar h1 {
 		max-width: 46ch;
 		padding: 8rem auto;
 	}
+}
 
-	@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
-		.ex-section2 {
-			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		}
-
-		.burger-nav {
-			display: block;
-			height: 40px;
-			width: 100%;
-			background: url(../images/burger-nav-dark.png) no-repeat 2% center;
-			cursor: pointer;
-		}
-
-		header navigation h1 {
-			background-color: #fff;
-			text-decoration: none;
-			opacity: 0.7;
-			height: 25px;
-			margin-bottom: 10px;
-			padding-bottom: 15px;
-			font-size: 2em;
-			padding-top: 10px;
-		}
-
-		header titlebar {
-			display: none;
-		}
-
-		header navigation ul {
-			display: block;
-			overflow: hidden;
-			background: url(../images/site/10x10_pixel_wit_10_procent.png);
-			height: 0;
-		}
-
-		header navigation a h1 {
-			display: block;
-			text-align: center;
-			font-size: 18px;
-			padding-top: 6px;
-			padding-left: 24px;
-		}
-
-		header navigation ul.open {
-			height: auto;
-		}
-
-		header navigation ul.close {
-			height: 0px;
-		}
-
-		header navigation ul li {
-			background-color: rgba(255, 255, 255, 70%);
-			float: none;
-			text-align: left;
-			width: 100%;
-			margin: 0;
-		}
-
-		header navigation ul li a {
-			color: #fff;
-			padding: 10px;
-			border-bottom: 1px solid #404040;
-			display: block;
-			margin: 0;
-		}
-
-		.section-container2 {
-			max-width: var(--pageMax);
-			margin: 0 auto;
-			padding: 0.7rem;
-		}
-
-		.ex-container2 .section {
-			font-size: 1rem;
-		}
-
-		.section-title code {
-			margin-left: 0;
-			margin-top: 1rem;
-		}
-
-		.support-area {
-			margin-top: 1rem;
-			margin-bottom: 0.5rem;
-		}
-
-		.code-area {
-			height: 300px;
-		}
-
-		.code-container {
-			font-size: 1.15rem;
-		}
-
-		.parent {
-			width: 106%;
-			height: 100%;
-		}
-
-		header titlebar h1 {
-			font-size: 1.7em;
-		}
-
+	.ex-section2 {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
+
+	.burger-nav {
+		display: block;
+		height: 40px;
+		width: 100%;
+		background: url(../images/burger-nav-dark.png) no-repeat 2% center;
+		cursor: pointer;
+	}
+
+	header navigation h1 {
+		background-color: #fff;
+		text-decoration: none;
+		opacity: 0.7;
+		height: 25px;
+		margin-bottom: 10px;
+		padding-bottom: 15px;
+		font-size: 2em;
+		padding-top: 10px;
+	}
+
+	header titlebar {
+		display: none;
+	}
+
+	header navigation ul {
+		display: block;
+		overflow: hidden;
+		background: #fff 0.1;
+		height: 0;
+	}
+
+	header navigation a h1 {
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		padding-top: 6px;
+		padding-left: 24px;
+	}
+
+	header navigation ul.open {
+		height: auto;
+	}
+
+	header navigation ul.close {
+		height: 0px;
+	}
+
+	header navigation ul li {
+		background-color: rgba(255, 255, 255, 70%);
+		float: none;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+	}
+
+	header navigation ul li a {
+		color: #fff;
+		padding: 10px;
+		border-bottom: 1px solid #404040;
+		display: block;
+		margin: 0;
+	}
+
+	.burger-nav {
+		display: block;
+		height: 40px;
+		width: 100%;
+		background: url(../images/burger-nav-dark.png) no-repeat 2% center;
+		cursor: pointer;
+	  }
+
+	.section-container2 {
+		max-width: var(--pageMax);
+		margin: 0 auto;
+		padding: 0.7rem;
+	}
+
+	.ex-container2 .section {
+		font-size: 1rem;
+	}
+
+	.section-title code {
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+
+	.support-area {
+		margin-top: 1rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.code-area {
+		height: 300px;
+	}
+
+	.code-container {
+		font-size: 1.15rem;
+	}
+
+	.parent {
+		width: 106%;
+		height: 100%;
+	}
+
+	header titlebar h1 {
+		font-size: 1.7em;
+	}
+
+}
