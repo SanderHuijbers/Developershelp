@@ -48,12 +48,12 @@ ol {
 .linkbox {
 	background-color: rgba(255, 255, 255, 0.5);
 	box-shadow: 5px 5px 5px #444;
-	margin: 0px 10px 25px 10px;
+	margin-bottom: 25px;
 	padding-top: 10px;
 	padding-left: 20px;
 	padding-bottom: 25px;
-	font-size: 18px;
-	width: 84%;
+	font-size: 20px;
+	width: 87%;
 	border-radius: 10px 30px 15px;
 	border: 1px solid #1a1a1a;
 }
@@ -213,10 +213,6 @@ header titlebar h1 {
 
 		.ex-section2 {
 			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		}
-
-		header titlebar {
-			display: none;
 		}
 
 		.burger-nav {
